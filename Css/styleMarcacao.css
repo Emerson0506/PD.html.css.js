@@ -1,0 +1,188 @@
+.marcacao {
+
+    background-color: rgba(18, 18, 254, 0.751);
+    width: 729px;
+    height: 445px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+
+    div {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    select {
+        height: 24px;
+    }
+
+}
+
+.cabecalho {
+    height: 25px;
+
+    #titulo {
+        color: "#000000";
+        margin-left: 8%;
+        margin-top: 35px;
+    }
+
+    border-style:solid;
+    border: bottom 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.horarioOuConsulta {
+    margin-left: 102.5px;
+}
+
+.data {
+    margin-left: 73.5px;
+
+    #escolhaData {
+        height: 20px;
+    }
+}
+
+.horarioInicialeFinal {
+
+    #refSelecionaDuracao {
+        width: 70px;
+        text-align: center;
+    }
+
+    #horaTermino,
+    #horaInicio,
+    #selecionaDuracao {
+        margin-left: 10px;
+    }
+
+    input {
+        width: 70px;
+    }
+}
+
+.pesquisaClientes {
+    #pesquisarCliente {
+        width: 300px;
+    }
+
+    #pesquisar {
+        margin-left: 58.5px;
+    }
+}
+
+.containerObservacao {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#lblObservacoes {
+    width: 80px;
+    display: flex;
+    margin-left: 28.5px;
+}
+
+#txtObservacoes {
+
+    display: flex;
+
+    #refObservacao {
+        resize: none;
+    }
+}
+
+.situacao {
+
+    #escolhaSituacao {
+        width: 300px;
+    }
+
+    #situacao {
+        margin-left: 49.5px;
+    }
+}
+
+.controleAlarme {
+
+    #refAlarme {
+        margin-left: 37.5px;
+    }
+
+    #escolhaUsuario {
+
+        width: 300px;
+    }
+
+    #minutosAntecedencia {
+        width: 25px;
+    }
+
+    #comAntecedencia {
+        margin-left: 65px;
+    }
+}
+
+.controleAtendimento {
+    #confirmacao {
+        margin-left: 21.5px;
+    }
+
+    #atendimentoDe {
+        margin-left: 110.5px;
+    }
+
+    #chegada {
+        margin-left: 49.5px;
+    }
+
+    #atendimentoAte {
+        margin-left: 190px;
+    }
+
+    #dataChegada,
+    #dataFimAtendimento,
+    #dataInicioAtendimento,
+    #dataConfirmacao {
+        height: 20px;
+    }
+
+    #dataChegada {
+        height: 20px;
+        width: 111px;
+    }
+}
+
+.containerInformacoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#lblInformacoes {
+    width: 85px;
+    display: flex;
+    margin-left: 26px;
+}
+
+#txtInformacoes {
+
+    display: flex;
+
+    #refInformacoes {
+        resize: none;
+        margin-left: 3.5px;
+
+    }
+}

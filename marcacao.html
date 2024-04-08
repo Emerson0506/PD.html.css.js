@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação de Horário</title>
+    <link rel="stylesheet" href="/ProDent/Css/styleMarcacao.css">
+</head>
+
+<body>
+
+    <div class="marcacao">
+        <div class="cabecalho">
+            <h2 id="titulo">Marcação de Horário - Emerson Lucas</h2>
+        </div>
+        <form value="formularioPrincipal">
+            <div class="conteiner">
+                <div class="horarioOuConsulta">
+                    <input type="radio" name="horarioOuConsulta" id="escolhaConsulta">
+                    <label for="escolhaConsulta">Consulta</label> 
+                    <input type="radio" name="horarioOuConsulta" id="escolhaCompromisso">
+                    <label for="escolhaCompromisso">Compromisso</label> 
+                </div>
+                <div class="data">
+                    <label for="escolhaData">Data</label>
+                    <input type="date" name="escolhaData" id="escolhaData">
+                </div>
+                <div class="horarioInicialeFinal">
+                    <label for="refHoraInicio" id="horaInicio">Horário Inicial</label>
+                    <input type="time" name="" id="refHoraInicio">
+                    <label for="refHoraTermino" id="horaTermino">Término</label>
+                    <input type="time" id="refHoraTermino">
+                    <label for="refSelecionaDuracao" id="selecionaDuracao">Duração</label>
+                    <select name="" id="refSelecionaDuracao">
+                        <option value="15">15</option>
+                        <option value="30">30</option>
+                        <option value="60">60</option>
+                        <option value="120">120</option>
+                        <option value="240">240</option>
+                    </select>
+                    <label for="">Minutos</label>
+                </div>
+                <div class="pesquisaClientes">
+                    <label for="pesquisarCliente" id="pesquisar">Cliente</label>
+                    <select id="pesquisarCliente">
+                        <option value="">Emerson Lucas Bertelli Cardoso</option>
+                    </select>
+                    <input type="submit" name="novoCliente" id="novoCliente" value="Novo"> 
+                </div>
+            </div>
+            <div class="containerObservacao">
+                <div class="lblObservacoes" id="lblObservacoes">
+                    <label for="refObservacao" id="observacao">Obervações</label>
+                </div>
+                <div id="txtObservacoes">
+                    <textarea name="refObservacao" id="refObservacao" cols="80" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="conteiner">
+                <div class="situacao">
+                    <label for="escolhaSituacao" id="situacao">Situação</label>
+                    <select name="" id="escolhaSituacao">
+                        <option value="">Atendido</option>
+                    </select>
+                </div>
+                <div class="controleAlarme">
+                    <input type="checkbox" name="" id="refAlarme" >
+                    <label  id="alarme">Alarme</label>
+                    <select name="" id="escolhaUsuario">
+                        <option value="alarmeUsuario">Emerson</option>
+                        <option value="alarmeUsuario">Lara</option>
+                        <option value="alarmeUsuario">Andréas</option>
+                        <option value="alarmeUsuario">Denilson</option>
+                    </select>
+                    <label for="" id="comAntecedencia">Com antecedência de </label>
+                    <input type="text"  id="minutosAntecedencia" maxlength="3">
+                    <label for="">Minutos</label>
+                </div>
+                <div class="controleAtendimento">
+                    <label id="confirmacao">Confirmação</label>
+                    <input type="date" name="dataConfirmacao" id="dataConfirmacao">
+                    <input type="time" name="horaConfirmacao" id="horaConfirmacao">
+                    <label id="atendimentoDe">Atendimento de</label>
+                    <input type="date" name="dataInicioAtendimento" id="dataInicioAtendimento">
+                    <input type="time" name="horaInicioAtendimento" id="horaInicioAtendimento">
+                </div>
+                <div class="controleAtendimento">
+                    <label id="chegada">Chegada</label>
+                    <input type="date" name="dataChegada" id="dataChegada">
+                    <input type="time" name="horaChegada" id="horaChegada">
+                    <label id="atendimentoAte">Até</label>
+                    <input type="date" name="dataFimAtendimento" id="dataFimAtendimento">
+                    <input type="time" name="horaFimAtendimento" id="horaFimAtendimento">
+                </div>
+                <div class="containerInformacoes">
+                    <div class="lblInformacoes" id="lblInformacoes">
+                        <label for="refInformacao" id="refInformacao">Informações</label>
+                    </div>
+                    <div id="txtInformacoes">
+                        <textarea name="refInformacoes" id="refInformacoes" cols="80" rows="4"></textarea>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

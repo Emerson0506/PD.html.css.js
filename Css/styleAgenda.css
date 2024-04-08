@@ -1,0 +1,83 @@
+html{
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+.agenda {
+    border-style: solid;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    width: 1000px;
+    height: 530px;
+    background-color: rgba(18, 18, 254, 0.751);
+}
+
+.cabecalho {
+    height: 23px;
+
+    #titulo {
+        color: "#000000";
+        margin-left: 8%;
+    }
+
+    border-style:solid;
+    border: bottom 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.profissionais {
+    height: 20px;
+    width: 500px;
+    margin-left: 3.2%;
+    display: flex;
+
+    select {
+        width: 60%;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    #profissional {
+        font-size: 15px;
+        margin-top: 2px;
+        margin-left: 8%;
+    }
+}
+
+.horarios {
+
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    height: 463px;
+    overflow: auto;
+
+
+    .tabelaHorarios {
+        width: 85.4%;
+        margin-left: 7.3%;
+        background-color:rgb(251, 253, 252);
+        border: 1px solid white;
+        overflow: auto;
+        
+        .tr1{
+            height: 85px;
+            width: 70px;
+            background-color:rgb(110, 206, 147);
+        }
+
+        .dias {
+
+            border: solid black;
+            background-color: white;
+            color: blue;
+            height: 20px;
+            font-size: 12px;
+        }
+    }
+}
